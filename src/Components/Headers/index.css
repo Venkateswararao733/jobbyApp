@@ -1,0 +1,62 @@
+.navbar-container {
+  background-color: #202020;
+  min-height: 10vh;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.link-item {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.headers-mobile-view {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-item {
+  list-style-type: none;
+  margin: 0px 10px 0px 10px;
+}
+.react-logo {
+  width: 40px;
+  height: 30px;
+}
+.log-out-btn {
+  background-color: transparent;
+  width: 40px;
+  outline: none;
+  border: 0px;
+  color: #fff;
+  cursor: pointer;
+}
+.headers-desktop-view {
+  display: none;
+}
+.log-out-btn-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .headers-mobile-view {
+    display: none;
+  }
+  .headers-desktop-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .log-out-btn-desktop {
+    display: flex;
+    background-color: #4f46e5;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px 5px 20px;
+    margin-right: 10px;
+    border: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+  }
+}
